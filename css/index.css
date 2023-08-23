@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+/*  Formulaire */
+#connectionForm {                                  
+    border: 2px black solid;
+    height: 450px;
+    width: 600px;
+    position: absolute;
+    top: 15%;
+    left: 34.1%;
+    background-color: #eeded9;
+}
+
+/*   Titre du formulaire */
+#connectionTitreForm {                           
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 250%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    background: linear-gradient(to bottom right, rgb(195, 195, 255), rgb(255, 255, 255));
+}
+
+/*   Entrée de l'identifiant dans le formulaire */
+#connectionUsername { 
+    position: relative;
+    top: 1%;
+    left: 28%;
+    border: 2px solid black;
+    height: 7.5%;
+    width: 50%;
+    font-size: 120%;
+    font-family: montsera;
+    &:focus {
+        border: 3px solid black;
+    }
+}
+
+/* Texte avant l'entrée de l'identifiant */
+#connectionUsernameText {
+    position: relative;
+    top: 13.5%;
+    left: 3%;
+    font-size: 150%;
+}
+
+/* Entrée du mot de passe dans le formulaire */
+#connectionPassword {
+    position: relative;
+    left: 28%;
+    border: 2px solid black;
+    height: 7.5%;
+    width: 50%;
+    font-size: 120%;
+    font-family: montsera;
+    &:focus {
+        border: 3px solid black;
+    }
+}
+
+/* Texte avant l'entrée du mot de passe */
+#connectionPasswordText {
+    position: relative;
+    top: 13%;
+    left: 2%;
+    font-size: 150%;
+}
+
+/* Bouton de validation du formulaire */
+#connectionButtonForm {
+    position: relative;
+    top: 23%;
+    right: 13.5%;
+    height: 8.5%;
+    width: 25.5%;
+    font-size: 130%;
+    font-family: montsera;
+    transition: 450ms;
+    &:hover {
+        transform: scale(1.1);
+    }
+    background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+    border-radius: 10px;
+}
+
+/* Lien vers la page d'inscription */
+#connectionLink {
+    color: purple;
+    text-decoration: none;
+    position: absolute;
+    top: 58.5%;
+    left: 43.5%;
+    font-size: large;
+}

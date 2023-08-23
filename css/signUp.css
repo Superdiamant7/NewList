@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+/*  Formulaire */
+#signUpForm {                                  
+    border: 2px black solid;
+    height: 520px;
+    width: 600px;
+    position: absolute;
+    top: 15%;
+    left: 34.1%;
+    background-color: #eeded9;
+}
+
+/*   Titre du formulaire */
+#signUpTitreForm {                           
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 250%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    background: linear-gradient(to bottom right, rgb(195, 195, 255), rgb(255, 255, 255));
+}
+
+/*   Entrée de l'identifiant dans le formulaire */
+#signUpUsername { 
+    position: relative;
+    top: 1%;
+    left: 28%;
+    border: 2px solid black;
+    height: 6.5%;
+    width: 50%;
+    font-size: 120%;
+    font-family: montsera;
+    &:focus {
+        border: 3px solid black;
+    }
+}
+
+/* Texte avant l'entrée de l'identifiant */
+#signUpUsernameText {
+    position: relative;
+    top: 11.5%;
+    left: 3%;
+    font-size: 150%;
+}
+
+#usernameAlreadyUsed {
+    position: relative;
+    top: -1%;
+    left: 30%;
+    color: red;
+    text-decoration: underline;
+    font-size: 110%;
+    visibility: hidden;
+}
+
+/* Entrée du mot de passe dans le formulaire */
+#signUpPassword {
+    position: relative;
+    top: -5%;
+    left: 28%;
+    border: 2px solid black;
+    height: 6.5%;
+    width: 50%;
+    font-size: 120%;
+    font-family: montsera;
+    &:focus {
+        border: 3px solid black;
+    }
+}
+
+/* Répétition du mot de passe dans le formulaire */
+#signUpPasswordRepeat {
+    position: relative;
+    left: 28%;
+    border: 2px solid black;
+    height: 6.5%;
+    width: 50%;
+    font-size: 120%;
+    font-family: montsera;
+    &:focus {
+        border: 3px solid black;
+    }
+}
+
+/* Texte avant l'entrée du mot de passe */
+#signUpPasswordText {
+    position: relative;
+    top: 6%;
+    left: 2%;
+    font-size: 150%;
+}
+
+#passwordError {
+    position: relative;
+    top: 5%;
+    left: 31%;
+    color: red;
+    visibility: hidden;
+}
+
+/* Bouton de validation du formulaire */
+#signUpButtonForm {
+    position: absolute;
+    top: 75.5%;
+    right: 37%;
+    height: 8.5%;
+    width: 25.5%;
+    font-size: 130%;
+    font-family: montsera;
+    transition: 450ms;
+    &:hover {
+        transform: scale(1.1);
+    }
+    background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+    border-radius: 10px;
+}
+
+/* Lien vers la page de connection */
+#signUpLink {
+    color: purple;
+    text-decoration: none;
+    position: absolute;
+    top: 65.5%;
+    left: 46.5%;
+    font-size: large;
+}
